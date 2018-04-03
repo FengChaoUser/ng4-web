@@ -9,6 +9,7 @@ import { HomeComponent } from './home/home.component';
 import { HeaderComponent } from './common/header/header.component';
 import { FullScreenComponent } from './home/full-screen/full-screen.component';
 import { PcWebComponent } from './home/pc-web/pc-web.component';
+import { LoadingComponent } from './common/loading/loading.component';
 
 
 @NgModule({
@@ -18,7 +19,8 @@ import { PcWebComponent } from './home/pc-web/pc-web.component';
     HomeComponent,
     HeaderComponent,
     FullScreenComponent,
-    PcWebComponent
+    PcWebComponent,
+    LoadingComponent
   ],
   imports: [
     BrowserModule,
